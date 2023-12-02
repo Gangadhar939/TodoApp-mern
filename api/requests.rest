@@ -1,0 +1,19 @@
+
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "task" : "Have Dinner"
+}
+
+###
+
+DELETE  http://localhost:3001/todo/delete/656841eb6dec2ad2eed489dd
+
+###
+
+PUT http://localhost:3001/todo/complete/656842036dec2ad2eed489e2
